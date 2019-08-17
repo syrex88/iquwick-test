@@ -1,0 +1,40 @@
+{
+  "name": "nuxt-typescript",
+  "description": "Nuxt.js TypeScript project",
+  "version": "2.8.1",
+  "private": true,
+  "dependencies": {
+    "@nuxtjs/axios": "5.5.4",
+    "element-ui": "^2.10.1",
+    "nuxt": "2.8.1",
+    "nuxt-property-decorator": "2.3.0",
+    "ts-node": "8.3.0",
+    "tslint": "^5.18.0",
+    "vuex-class": "0.3.2"
+  },
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .ts,.js,.vue --ignore-path .gitignore .",
+    "lintfix": "eslint --fix --ext .ts,.js,.vue --ignore-path .gitignore ."
+  },
+  "devDependencies": {
+    "@nuxt/typescript": "2.8.1",
+    "@nuxtjs/eslint-config": "0.0.1",
+    "@types/node": "10.14.12",
+    "@types/webpack-env": "1.13.9",
+    "@typescript-eslint/eslint-plugin": "^1.11.0",
+    "@typescript-eslint/parser": "^1.11.0",
+    "eslint": "^6.0.1",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-jest": "^22.7.2",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "eslint-plugin-unicorn": "^9.1.1",
+    "eslint-plugin-vue": "^5.2.3"
+  }
+}
