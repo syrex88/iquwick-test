@@ -1,6 +1,5 @@
-import { Person } from '~/types'
+import { AccountBalance } from '~/types'
 
 export interface RootState {
-  peoples: Person[];
-  name: string;
+  accountsBalance: AccountBalance[];
 }

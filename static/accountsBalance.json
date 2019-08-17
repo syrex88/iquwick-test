@@ -1,0 +1,47 @@
+[
+    {
+      "accountNumder": "10201810000000010019",
+      "balance": 290.0,
+      "updated": "2019-07-12"
+    },
+    {
+      "accountNumder": "47441810000200000020",
+      "balance": -90.0,
+      "updated": "2019-07-12"
+    },
+    {
+      "accountNumder": "47443810000200000023",
+      "balance": -200.0,
+      "updated": "2019-07-12"
+    },
+    {
+      "accountNumder": "10201810000000010019",
+      "balance": 970.0,
+      "updated": "2019-07-15"
+    },
+    {
+      "accountNumder": "47441810000200000020",
+      "balance": -470.0,
+      "updated": "2019-07-15"
+    },
+    {
+      "accountNumder": "47443810000200000023",
+      "balance": -500.0,
+      "updated": "2019-07-15"
+    },
+    {
+      "accountNumder": "10201810000000010019",
+      "balance":1000.0,
+      "updated": "2019-07-16"
+    },
+    {
+      "accountNumder": "47441810000200000020",
+      "balance": -434.0,
+      "updated": "2019-07-16"
+    },
+    {
+      "accountNumder": "47443810000200000023",
+      "balance": -116.0,
+      "updated": "2019-07-16"
+    }]
+  

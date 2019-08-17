@@ -1,18 +1,28 @@
 <template>
   <section>
-    <h1 class="header">
-      Nuxt TypeScript Starter
-    </h1>
-    <el-button type="primary" @click="click">
-      Primary
-    </el-button>
-    <el-input-number :min="1" :max="10" />
-    <div class="cards">
-      <Card
-        v-for="person in peoples"
-        :key="person.id"
-        :person="person"
-      />
+    <h3 style="text-align:center">
+      Счета
+    </h3>
+    <div>
+      <el-table
+        :data="accountsBalance"
+        style="width: 100%"
+      >
+        <el-table-column
+          prop="accountNumder"
+          label="accountNumder"
+          width="180"
+        />
+        <el-table-column
+          prop="balance"
+          label="balance"
+          width="80"
+        />
+        <el-table-column
+          prop="updated"
+          label="updated"
+        />
+      </el-table>
     </div>
   </section>
 </template>
@@ -23,30 +33,10 @@ import {
   Vue
 } from 'nuxt-property-decorator'
 import { State } from 'vuex-class'
-import { Person } from '~/types'
-import Card from '~/components/Card.vue'
+import { AccountBalance } from '~/types'
 
-@Component({
-  components: {
-    Card
-  }
-})
-export default class extends Vue {
-  @State peoples!: Person
-  @State name!:string
-  click() {
-    // alert('click');
-  }
+@Component
+export default class Index extends Vue {
+  @State accountsBalance!: AccountBalance
 }
 </script>
-
-<style scoped>
-.header {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.cards {
-  display: flex;
-  flex-wrap: wrap;
-}
-</style>
