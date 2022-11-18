@@ -6,7 +6,7 @@
   "dependencies": {
     "@nuxtjs/axios": "5.5.4",
     "element-ui": "^2.10.1",
-    "nuxt": "2.8.1",
+    "nuxt": "2.15.8",
     "nuxt-property-decorator": "2.3.0",
     "ts-node": "8.3.0",
     "tslint": "^5.18.0",
